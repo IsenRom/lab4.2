@@ -22,7 +22,15 @@ namespace Lab4._2
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string a, b;
+            Console.WriteLine("Input A:");
+            a = Console.ReadLine();
+            Console.WriteLine("Input B:");
+            b = Console.ReadLine();
+            Console.WriteLine(plus(int.Parse(a), int.Parse(b)));
+            Console.WriteLine(minus(int.Parse(a), int.Parse(b)));
+            Console.WriteLine(multi(int.Parse(a), int.Parse(b)));
+            Console.WriteLine(div(int.Parse(a), int.Parse(b)));
         }
     }
 }

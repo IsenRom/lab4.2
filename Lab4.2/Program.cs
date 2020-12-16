@@ -4,7 +4,7 @@ namespace Lab4._2
 {
     class Program
     {
-        static int plus(int a, int b)
+        static int div(int a, int b)
         {
             return a / b;
         }

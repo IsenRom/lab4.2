@@ -23,14 +23,15 @@ namespace Lab4._2
         static void Main(string[] args)
         {
             string a, b;
-            Console.WriteLine("Input A:");
+            Console.WriteLine("Число A:");
             a = Console.ReadLine();
-            Console.WriteLine("Input B:");
+            Console.WriteLine("Число B:");
             b = Console.ReadLine();
-            Console.WriteLine(plus(int.Parse(a), int.Parse(b)));
-            Console.WriteLine(minus(int.Parse(a), int.Parse(b)));
-            Console.WriteLine(multi(int.Parse(a), int.Parse(b)));
-            Console.WriteLine(div(int.Parse(a), int.Parse(b)));
+            Console.WriteLine("Действия");
+            Console.WriteLine($"{a}+{b}={plus(int.Parse(a), int.Parse(b))}");
+            Console.WriteLine($"{a}-{b}={minus(int.Parse(a), int.Parse(b))}");
+            Console.WriteLine($"{a}*{b}={multi(int.Parse(a), int.Parse(b))}");
+            Console.WriteLine($"{a}div{b}={div(int.Parse(a), int.Parse(b))}");
         }
     }
 }
